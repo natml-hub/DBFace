@@ -1,0 +1,25 @@
+{
+    "name": "ai.natml.vision.dbface",
+    "version": "1.0.0",
+    "displayName": "DBFace",
+    "description": "Realtime single-stage face detector in Unity Engine.",
+    "unity": "2021.2",
+    "dependencies": {
+        "ai.natml.natml": "1.0.18"
+    },
+    "keywords": [
+        "natml",
+        "machine learning",
+        "ml",
+        "aritificial intelligence",
+        "face",
+        "face detection"
+    ],
+    "author": {
+        "name": "NatML",
+        "email": "hi@natml.ai",
+        "url": "https://github.com/natmlx"
+    },
+    "license": "MIT",
+    "repository": "github:natml-hub/DBFace"
+}
