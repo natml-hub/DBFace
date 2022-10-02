@@ -16,7 +16,7 @@ Then detect faces in the image:
 ```csharp
 // Create image feature
 Texture2D image = ...;
-var imageFeature = new MLImageFeature(image); // This also accepts a `Color32[]` or `byte[]`
+var imageFeature = new MLImageFeature(image);
 (imageFeature.mean, imageFeature.std) = modelData.normalization;
 imageFeature.aspectMode = modelData.aspectMode;
 // Detect faces
