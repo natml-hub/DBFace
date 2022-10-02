@@ -1,7 +1,24 @@
 # DBFace
 [DBFace](https://github.com/dlunion/DBFace) face detection.
 
-## Detecting Faces in an Image
+## Installing Meet
+Add the following items to your Unity project's `Packages/manifest.json`:
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "NatML",
+      "url": "https://registry.npmjs.com",
+      "scopes": ["ai.natml"]
+    }
+  ],
+  "dependencies": {
+    "ai.natml.vision.dbface": "1.0.0"
+  }
+}
+```
+
+## Detecting Faces
 First, create the DBFace predictor:
 ```csharp
 // Fetch the model data from NatML
